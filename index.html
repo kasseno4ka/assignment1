@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="templates/styles.css">
+    <link rel="icon" href="templates/images/favicon.ico">
     <title>Main page</title>
 </head>
 <body>
+
     <!-- Head  -->
-    <section class="main-section">
+    <section id="main-section">
         <div class="head">
             <div class="logo">
-                <h1>TicketSales</h1>
+                <img src="templates/images/favicon.ico" alt="" style="border-radius: 20px; margin: 0 10px ">
+                <h1 class="logo-text">QAZTRAVEL</h1>
             </div>
             <div class="menu">
                 <ul class="menu-list">
                     <a href="contact-us.html" class="menu-list-elements">Contact us</a>
-                    <a href="" class="menu-list-elements">Shop</a>
+                    <a href="shop.html" class="menu-list-elements">Shop</a>
                     <a href="" class="menu-list-elements">Interest</a>
                 </ul>
             </div>
@@ -26,9 +29,70 @@
     <!-- Main section -->
     <section>
         <div class="main-body">
+            <h1>
+                Поиск дешевых билетов по Казахстану
+            </h1>
+            <br>
+            <p>Лучший сервис для поиска билетов по Казахстану</p>
+            <br>
+            <form action="">
+                <input de type="text" class="input-form custom-placeholder" placeholder="Откуда">
+                <input type="text" class="input-form custom-placeholder" placeholder="Куда">
+
+                <input type= "date" class="input-form custom-placeholder" placeholder="12.12.2003">
+                <button class="search input-form custom-placeholder">Найти</button>
+            </form>
+
+            <!-- <br>
+            <br>
+            <br>
+            <br> -->
+            <!-- <div class="bonus-card">
+            
+            </div> -->
             
         </div>
+        <div class="bonus-card">
+            <div class="bonus-card-info">
+                <h1>Подключайте бесплатный кэшбек от QazSales</h1>
+                <p>Выгодно покупайте и совершайте самые выгодные покупки</p>
+            </div>
+            <div class="bonus-card-image">
+                <button class="economy"><a class="win" href="">Хочу выйграть</a></button>
+            </div>
+        </div>
 
+        
+     
+
+    </section>
+    <section>
+        <div class="second-body">
+            <div class="popular-directions">
+                <h1>
+                    Popular directions
+                </h1>
+                <br>
+                <p>Из вашего города</p>
+                <div class="card-container">
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                </div>
+
+
+
+            </div>
+        </div>
     </section>
 </body>
 </html>

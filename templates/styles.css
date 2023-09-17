@@ -3,40 +3,163 @@
     padding: 0;
 }
 
+
+
 #main-section{
+    position: fixed;
+}
+
+.backgroud{
     height: 100vh;
+    width: 100vw;
 }
 
 .head{
-    height: 10vh;
-    margin: 0 15vw;
-    background-color: red;
+    width: 100vw;
+    height: 5vh;
+    background-color: #0c73fe;
+
+    /* margin: 0 15vw; */
     display: flex;
+    padding: 0 13vw;
 }
 
 .logo{
-    width: 30%;
+    color: white;
     height: 100%;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* margin: 0 0 0 20vw; */
 }
 
+/* .logo-text{
+    display: ;
+} */
+
 .menu{
-    margin: 0 0 0 50%; 
-    width: 50%;
+    /* margin: 0 0 0 50%;  */
+    
     height: 100%;
-    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 45vw;
+
 }
 
 .menu-list{
-    display: flex;
+    text-align: right;
+
+    list-style: none; 
+    padding: 0; 
+  
 }
 
 .menu-list-elements{
-    margin: 1vh 3vw;
+    color: white;
+    display: inline-block; 
+    margin: 0 20px; 
+    text-decoration: none; 
+    font-size: 1.2rem;
+  
 }
 
 .main-body{
-    height: 90vh;
-    margin: 0 15vw;
-    background-color: blue;
+    height: 70vh;
+    background-color: #0c73fe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.second-body{
+    height: 100vh;
+}
+
+.search{
+    background-color: orange;
+}
+
+.input-form{
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.bonus-card{
+
+    width: 35vw;
+    height: 20vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: -15vh auto 0 ;
+}
+
+.bonus-card-info{
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+.bonus-card-image{
+    width: 50%;
+    margin: auto;
+}
+
+.economy{
+    margin: auto;
+    background-color: orange;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+}
+
+.win{
+    text-decoration: none;
+}
+
+.custom-placeholder::placeholder{
+    
+    text-align: center;
+
+}
+
+.popular-directions {
+    margin: 10vh auto;
+    width: 50vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.card-container {
+    display: flex; /* Display cards in a single row */
+    justify-content: center; /* Center cards horizontally within the container */
+}
+
+.card {
+    height: 25vh;
+    width: 10vw;
+    background-color: red;
+    margin: 10px; /* Add margin around each card */
 }
