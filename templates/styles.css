@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 6vh;
+    margin: 0 15vw;
+    background-color: red;
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
+
+.menu{
+    margin: 0 0 0 50%;
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list-elements{
+    margin: 1vh 3vw;
+}
+
+.main-body{
+    height: 90vh;
+    margin: 0 15vw;
+    background-color: blue;
+}
